@@ -1,6 +1,6 @@
 {
   "name": "bignumberjs-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "bignumber.js adapter for linear-arbitrary-precision",
   "main": "src/bignumberjs-adapter.js",
   "scripts": {
