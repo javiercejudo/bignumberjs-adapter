@@ -2,7 +2,7 @@
 
 'use strict';
 
-var should = require('should');
+require('should');
 var decimalFactory = require('linear-arbitrary-precision');
 
 var adapter = require('../src/bignumberjs-adapter');

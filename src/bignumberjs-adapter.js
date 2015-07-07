@@ -5,7 +5,7 @@
 var bignumber = require('bignumber.js');
 
 module.exports = {
-  getInstance: getInstance,
+  getInstance: bignumber.another,
   getPrecision: getPrecision,
   setPrecision: setPrecision,
   plus: plus,
@@ -13,8 +13,8 @@ module.exports = {
   times: times,
   div: div,
   toString: toString,
-  valueOf: valueOf,
-  toJSON: valueOf
+  valueOf: toString,
+  toJSON: toString
 };
 
 function getPrecision(Bignumber) {
@@ -43,12 +43,4 @@ function div(bignumber, x) {
 
 function toString(bignumber) {
   return bignumber.toString();
-}
-
-function valueOf(bignumber) {
-  return bignumber.valueOf();
-}
-
-function getInstance() {
-  return bignumber.another();
 }
