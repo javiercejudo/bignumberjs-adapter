@@ -13,6 +13,6 @@
 
 ## Usage
 
-  See [linear-arbitrary-precision docs](https://github.com/javiercejudo/linear-arbitrary-precision/blob/master/README.md#usage).
+See [linear-arbitrary-precision docs](https://github.com/javiercejudo/linear-arbitrary-precision/blob/master/README.md#usage).
 
 See [spec](test/spec.js).
