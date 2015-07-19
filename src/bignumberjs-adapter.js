@@ -13,6 +13,7 @@ module.exports = {
   minus: minus,
   times: times,
   div: div,
+  pow: pow,
   toString: toString,
   valueOf: toString,
   parseInput: identity
@@ -26,22 +27,26 @@ function setPrecision(Bignumber, n) {
   Bignumber.config(n);
 }
 
-function plus(bignumber, x) {
-  return bignumber.plus(x);
+function plus(x, y) {
+  return x.plus(y);
 }
 
-function minus(bignumber, x) {
-  return bignumber.minus(x);
+function minus(x, y) {
+  return x.minus(y);
 }
 
-function times(bignumber, x) {
-  return bignumber.times(x);
+function times(x, y) {
+  return x.times(y);
 }
 
-function div(bignumber, x) {
-  return bignumber.div(x);
+function div(x, y) {
+  return x.div(y);
 }
 
-function toString(bignumber) {
-  return bignumber.toString();
+function pow(x, y) {
+  return x.pow(y);
+}
+
+function toString(x) {
+  return x.toString();
 }
