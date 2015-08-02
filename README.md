@@ -5,7 +5,7 @@
 [![Code Climate](https://codeclimate.com/github/javiercejudo/bignumberjs-adapter/badges/gpa.svg)](https://codeclimate.com/github/javiercejudo/bignumberjs-adapter)
 
 [bignumber.js](https://github.com/MikeMcl/bignumber.js) adapter for
-[linear-arbitrary-precision](https://github.com/javiercejudo/linear-arbitrary-precision)
+[arbitrary-precision](https://github.com/javiercejudo/arbitrary-precision)
 
 ## Install
 
@@ -13,6 +13,6 @@
 
 ## Usage
 
-See [linear-arbitrary-precision docs](https://github.com/javiercejudo/linear-arbitrary-precision/blob/master/README.md#usage).
+See [arbitrary-precision docs](https://github.com/javiercejudo/arbitrary-precision/blob/master/README.md#usage).
 
 See [spec](test/spec.js).

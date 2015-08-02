@@ -48,7 +48,7 @@ describe('linear arbitrary precision with bignumber.js', function() {
       new Decimal('2').pow(new Decimal('3')).valueOf().should.be.exactly('8');
 
       (function() {
-        new Decimal('81').pow(new Decimal('0.5')).valueOf().should.be.exactly('9');
+        new Decimal('81').pow(new Decimal('0.5'));
       }).should.throw();
     });
   });
