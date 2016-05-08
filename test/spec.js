@@ -74,11 +74,11 @@ describe('linear arbitrary precision with bignumber.js', function() {
       Decimal40.setPrecision(40);
 
       var decimalThird = new Decimal40('1').div(new Decimal('3'));
-      var stringified = JSON.stringify([decimalThird]);
+      var stringified = JSON.stringify(decimalThird);
 
-      stringified.should.be.exactly('["0.3333333333333333333333333333333333333333"]');
+      stringified.should.be.exactly('"0.3333333333333333333333333333333333333333"');
 
-      JSON.parse(stringified, Decimal40.JSONReviver)[0].should.eql(decimalThird);
+      JSON.parse(stringified, Decimal40.reviver).should.eql(decimalThird);
     });
   });
 });
